@@ -39,7 +39,7 @@ a{
 	{% extends "app/base.html" %}
 {% block title %}List{% endblock %}
 {% block body %}
-<h1 style="color:maroon">List of Persons</h1>
+<h1 style="color:maroon">List of User-Data</h1>
 <table>
   <tr>{% for person in object_list %}</tr>
   <th>{{ person.first_name }} {{ person.last_name }}</th>
